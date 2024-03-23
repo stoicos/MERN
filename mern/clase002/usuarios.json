@@ -1,0 +1,7 @@
+{
+    "usuarios": [
+        {"nombre": "Chelo", "carrera": "web"},
+        {"nombre": "Dios", "carrera": "multimedial"},
+        {"nombre": "Ares", "carrera": "cine"}
+    ]
+}
