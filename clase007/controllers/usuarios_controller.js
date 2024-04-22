@@ -16,7 +16,7 @@ async function createUser(body) {
 }
 
 async function updateUser(body, email) {
-    let user = new Usuario.updateOne(({"email":email}), {
+    let user = new Usuario.updateOne({"email":email}, {
         $set:{
             nombre: body.nombre,
             password: body.password
